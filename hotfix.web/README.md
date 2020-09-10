@@ -1,4 +1,4 @@
-Развёрнутый сайт - kozodoi-club-hack.surge.sh
+Развёрнутый сайт - [vesdecode-hotfix-qulaz.surge.sh](https://vesdecode-hotfix-qulaz.surge.sh)
 
 Для локального развёртывания в корне необходимо выполнить npm i, затем npm start
 
