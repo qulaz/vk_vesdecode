@@ -100,14 +100,13 @@ const Place = ({ item, order, onIncrementPosition, onDecrementPosition, area }) 
           </li>
         )))}
       </ul>
-      <footer className="Place__footer">
-        {price > 0
-          ? <Link to={`/basket/${area.id}/${item.id}`} className="Place__order">
-              Оформить заказ ({price})
-            </Link>
-          : <span className="Place__order Place__order--disabled">Необходимо выбрать как минимум одно блюдо</span>
-        }
-      </footer>
+      { price !== "0" &&
+        <footer className="Place__footer">
+          <Link to={`/basket/${area.id}/${item.id}`} className="Place__order">
+            Оформить заказ ({price})
+          </Link>
+        </footer>
+      }
     </div>
   );
 };

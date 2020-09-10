@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "./",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
-    "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
+    "surge-deploy": "npm run build && surge ./build --domain vesdecode-hotfix-qulaz.surge.sh",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
