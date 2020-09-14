@@ -1,0 +1,123 @@
+.DView__cover {
+    width: 100%;
+    max-height: 140px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.DView__header {
+    padding-bottom: 16px;
+}
+
+.DView__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.DView__author {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6D7885;
+}
+
+.DView__author a {
+    color: #6D7885;
+    text-decoration: none;
+}
+
+.DView__author a:hover {
+    text-decoration: underline;
+}
+
+.DView__type {
+    font-size: 13px;
+    line-height: 16px;
+    color: #818C99;
+}
+
+.DView__description {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.DView__statBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #818C99
+}
+
+.DView__statBox__icon, .DView__statBox__icon .Icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.DView__statBox__icon {
+    margin-right: 27px;
+}
+
+.DView__statBox__icon span {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.DView__statBox__right .DView__statBox__icon {
+    margin-right: 0px;
+}
+
+.DView__comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.DView__comment__body {
+    display: flex;
+    align-items: flex-start;
+}
+
+.DView__comment__avatar {
+    margin-right: 8px;
+}
+
+.DV__comment__message .name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2C2D2E
+}
+
+.DV__comment__message .name span {
+    font-size: 13px;
+    line-height: 16px;
+    color: #818C99;
+    font-weight: 400;
+}
+
+.DV__comment__message .message {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.DView__comment__like {
+    color: #99A2AD
+}
+
+.DView__send__comment {
+    display: flex;
+    margin-top: 12px;
+}
+
+.DView__send__comment__avatar {
+    margin-right: 8px;
+}
+
+.DView__send__comment .Input {
+    height: 36px;
+    width: 100%;
+}

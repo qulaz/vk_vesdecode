@@ -1,0 +1,8 @@
+.StickyFooter {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--background_content);
+}

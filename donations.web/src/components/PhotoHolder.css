@@ -1,0 +1,59 @@
+.PhotoHolder {
+    width: 100%;
+    margin: 0 auto;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.PhotoHolder .wrapper {
+    border: 1px dashed #3F8AE0;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhotoHolder__label {
+    position: absolute;
+    cursor: pointer;
+}
+
+.PhotoHolder__label input {
+    display: none;
+}
+
+.PhotoHolder p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.PhotoHolder .Icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.ImgContainer {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ImgContainer .close {
+    width: 24px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
