@@ -1,0 +1,51 @@
+.AudioUploader__audioLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AudioUploader__audioIcon {
+    background-color: var(--input_background);
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.AudioUploader__audioBox {
+    display: flex;
+    align-items: center;
+}
+
+.AudioUploader__audioDuration {
+    color: var(--text_tertiary);
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    margin-left: 10px;
+}
+
+.AudioUploader__placeholder .Placeholder__in {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.AudioUploader__EditInfo p {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--content_placeholder_text);
+    letter-spacing: -0.078px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.AudioUploader__EditInfo .Button {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    width: 100%!important;
+}

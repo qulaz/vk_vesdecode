@@ -1,0 +1,3 @@
+export const SET_AUDIO = "SET_AUDIO";
+export const SET_AUDIO_DURATION = "SET_AUDIO_DURATION";
+export const CLEAR_AUDIO = "CLEAR_AUDIO";
