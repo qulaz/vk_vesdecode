@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vk_vesdecode/donations.web/static/css/main.ac7451d3.chunk.css",
+    "main.js": "/vk_vesdecode/donations.web/static/js/main.94e6919f.chunk.js",
+    "main.js.map": "/vk_vesdecode/donations.web/static/js/main.94e6919f.chunk.js.map",
+    "runtime-main.js": "/vk_vesdecode/donations.web/static/js/runtime-main.3c9936b2.js",
+    "runtime-main.js.map": "/vk_vesdecode/donations.web/static/js/runtime-main.3c9936b2.js.map",
+    "static/css/2.09e62520.chunk.css": "/vk_vesdecode/donations.web/static/css/2.09e62520.chunk.css",
+    "static/js/2.60b6b8db.chunk.js": "/vk_vesdecode/donations.web/static/js/2.60b6b8db.chunk.js",
+    "static/js/2.60b6b8db.chunk.js.map": "/vk_vesdecode/donations.web/static/js/2.60b6b8db.chunk.js.map",
+    "index.html": "/vk_vesdecode/donations.web/index.html",
+    "precache-manifest.6b740fc619f11789b4946d689ed95f10.js": "/vk_vesdecode/donations.web/precache-manifest.6b740fc619f11789b4946d689ed95f10.js",
+    "service-worker.js": "/vk_vesdecode/donations.web/service-worker.js",
+    "static/css/2.09e62520.chunk.css.map": "/vk_vesdecode/donations.web/static/css/2.09e62520.chunk.css.map",
+    "static/css/main.ac7451d3.chunk.css.map": "/vk_vesdecode/donations.web/static/css/main.ac7451d3.chunk.css.map",
+    "static/js/2.60b6b8db.chunk.js.LICENSE.txt": "/vk_vesdecode/donations.web/static/js/2.60b6b8db.chunk.js.LICENSE.txt",
+    "static/media/postIconIos.svg": "/vk_vesdecode/donations.web/static/media/postIconIos.1a1cb2d5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c9936b2.js",
+    "static/css/2.09e62520.chunk.css",
+    "static/js/2.60b6b8db.chunk.js",
+    "static/css/main.ac7451d3.chunk.css",
+    "static/js/main.94e6919f.chunk.js"
+  ]
+}
